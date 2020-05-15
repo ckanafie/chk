@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+	<title>Suraksha</title>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+	<div id="page-wrap">
+
+		<h1 style="text-align: center; color: white; font-size: 40px">Emergency</h1>
+				
+		<div id="contact-area">
+			
+			<form method="post" action="#">
+				<label for="Name">Driver:</label>
+				<input type="text" class="form-control" placeholder="Name" aria-describedby="sizing-addon2" id="driver_name" name="driver_name" required disabled>
+                 
+
+				<label for="Source">Source:</label>
+				<input type="text" class="form-control" placeholder="Location" aria-describedby="sizing-addon2" id="details_source" name="details_source" required disabled>
+
+				<label for="Destination">Destination:</label>
+				<input type="text" class="form-control" placeholder="Location" aria-describedby="sizing-addon2" id="details_destination" name="details_destination" required disabled>
+	
+				<label for="phone">Mobile:</label>
+				<input type="text" class="form-control" placeholder="Mobile" aria-describedby="sizing-addon2" id="mobile" name="mobile" required disabled>
+				
+				<label for="plateno">Plate No:</label>
+				<input type="text" class="form-control" placeholder="Registration No." aria-describedby="sizing-addon2" id="regno" name="regno" required disabled>
+
+				<label for="Message">Message:</label><br />
+				<textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+
+				<ul role="separator" class="divider"></ul>
+				<!--Add police phone number-->
+				<a href="tel:#"><button type="submit" name="submit" value="Send" class="submit-button">Call Police</button></a>
+				<!--Add mail id of the police station or company employee who checks the emergency-->
+				<a href="mailto:#?Subject=Help Needed Urgent" target="_top"><button type="submit" name="submit" value="Send" class="submit-button">Mail Police</button></a>
+
+			</form>
+			
+	
+	</div>
+
+</body>
+
+</html>
